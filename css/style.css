@@ -1,185 +1,204 @@
-body{
-    color: white;
-    font-family: -apple-system, BlinkMacSystemFont, "Neue Haas Grotesk Text Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+body {
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Neue Haas Grotesk Text Pro",
+    "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.hidden{
-    display: none;
+.hidden {
+  display: none;
 }
-#login span{
-    display: inline-block;
+#login span {
+  display: inline-block;
 }
 
 .bottom-border {
-    border-width: 0 0 3.5px;
-    background-color: transparent;
-    border-color: white;
-
+  border-width: 0 0 3.5px;
+  background-color: transparent;
+  border-color: white;
 }
-.login-input{
-    width: 100%;
-    height: 30%;
-    outline: none;
-    font-size: 3.375rem;
-    text-align: center;
-    caret-color: white;
-    color: white;
-    font-weight:500;
-    margin-top: 1rem;
-}
-
-.center{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.login-input {
+  width: 100%;
+  height: 30%;
+  outline: none;
+  font-size: 3.375rem;
+  text-align: center;
+  caret-color: white;
+  color: white;
+  font-weight: 500;
+  margin-top: 1rem;
 }
 
-.center-right{
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.center-bottom{
-    position: absolute;
-    top: 95%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.center-right {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.weather-menu{
-    position: absolute;
-    right: 20px;
-    height: 20px;
+.center-bottom {
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.weather-icon{
-    position: absolute;
-    right: 50px;
-    width: 2.2rem;
-    height: 2.2rem;
-    margin-top: 2px;
-    padding-right: 5px;
+.weather-menu {
+  position: absolute;
+  right: 20px;
+  height: 20px;
 }
 
-.login-form{
-    font-size: 3.375rem;
-    font-weight:500;
-    text-align: center;
+.weather-icon {
+  position: absolute;
+  right: 50px;
+  width: 2.2rem;
+  height: 2.2rem;
+  margin-top: 2px;
+  padding-right: 5px;
 }
 
-.clock-box{
-    cursor: default;
-    font-size: 1050%;
-    letter-spacing: -5px;
-    text-align: center;
+.login-form {
+  font-size: 3.375rem;
+  font-weight: 500;
+  text-align: center;
 }
 
-.greetingBox{
-    font-size: 3.375rem;
-    font-weight: 500;
-    text-align: center;
-    padding-bottom: 30px;
+.clock-box {
+  cursor: default;
+  font-size: 1050%;
+  letter-spacing: -5px;
+  text-align: center;
 }
 
-.todayTodo-form{
-    font-size: 2rem;
-    font-weight:400;
-    text-align: center;
+.greetingBox {
+  font-size: 3.375rem;
+  font-weight: 500;
+  text-align: center;
+  padding-bottom: 30px;
 }
 
-.todayTodo-input{
-    height: 40px;
-    width: 100%;
-    outline: none;
-    font-size: 2rem;
-    text-align: center;
-    caret-color: white;
-    color: white;
-    font-weight: 400;
+.todayTodo-form {
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
 }
 
-.todo-menu{
-    position: absolute;
-    right: 20px;
-    bottom: 20px;
+.todayTodo-input {
+  height: 40px;
+  width: 100%;
+  outline: none;
+  font-size: 2rem;
+  text-align: center;
+  caret-color: white;
+  color: white;
+  font-weight: 400;
 }
 
-#finTodo h3{
-    text-align: center;
-    margin-bottom: -10px;
+.todo-menu {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
 }
 
-.todayTodo-label{
-    text-align: center;
-    font-size: 1.775rem;
-    font-weight: 400;
+#finTodo h3 {
+  text-align: center;
+  margin-bottom: -10px;
 }
 
-button{
-    border-radius: 50px;
-    border: none;
-    color: white;
-    background-color: rosybrown;
-    padding: 7px 25px;
-    margin-top: 20px;
+.todayTodo-label {
+  text-align: center;
+  font-size: 1.775rem;
+  font-weight: 400;
 }
 
-.startBox{
-    background-color: white;
-    color: black;
-    position: absolute;
-    right: 20px;
-    bottom: 50px;
-    height: auto;
-    width: 320px;
-    padding: 20px;
-    border-radius: 5px;
+button {
+  border-radius: 50px;
+  border: none;
+  color: white;
+  background-color: rosybrown;
+  padding: 7px 25px;
+  margin-top: 20px;
 }
 
-.empty{
-    list-style: none;
-    display: inline-block;
+.startBox {
+  background-color: white;
+  color: black;
+  position: absolute;
+  right: 20px;
+  bottom: 50px;
+  height: auto;
+  width: 320px;
+  padding: 20px;
+  border-radius: 5px;
 }
 
-.addTodo-input{
-    height: 20px;
-    width: 100%;
-    outline: none;
-    font-size: 1rem;
-    color: black;
-    caret-color: black;
-    font-weight: 400;
+.empty {
+  list-style: none;
+  display: inline-block;
 }
 
-.startBox ul{
-    text-align: center;
-    padding-left: 0px;
+.addTodo-input {
+  height: 20px;
+  width: 100%;
+  outline: none;
+  font-size: 1rem;
+  color: black;
+  caret-color: black;
+  font-weight: 400;
 }
 
-.startBox li{
-    list-style: none;
+.startBox ul {
+  text-align: center;
+  padding-left: 0px;
 }
 
-.center-none{
-    text-align: left;
+.startBox li {
+  list-style: none;
 }
 
-#listDel{
-    text-align: right;
+.center-none {
+  text-align: left;
 }
 
-.weather-location{
-    font-weight: 400;
-    font-size: 1rem;
-    float: right;
+#listDel {
+  text-align: right;
 }
 
-.weather-temp{
-    font-weight: 400;
-    font-size: 2rem;
-    float: right;
+.weather-location {
+  font-weight: 400;
+  font-size: 1rem;
+  float: right;
 }
 
+.weather-temp {
+  font-weight: 400;
+  font-size: 2rem;
+  float: right;
+}
+
+.pw-box {
+  position: relative;
+  display: inline-block;
+  padding-right: 30px;
+  width: 80%;
+}
+
+.password-toggle {
+  position: absolute;
+  top: 50%;
+  right: 5px; /* 오른쪽 여백 조절 */
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+#answerPw img {
+  width: 2rem;
+  height: 2rem;
+}

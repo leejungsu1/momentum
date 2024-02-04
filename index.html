@@ -1,78 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>momentum</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <form id="answerName" class="center">
+      <label class="login-form" style="display: inline-block"
+        >Hello, what's your name?</label
+      ><br />
+      <input
+        id="name"
+        class="bottom-border login-input"
+        required
+        max="15"
+        min="3"
+        spellcheck="false"
+      />
+    </form>
+    <form id="answerEmail" class="hidden center">
+      <label class="login-form" style="display: inline-block"></label><br />
+      <input
+        id="email"
+        class="bottom-border login-input"
+        required
+        spellcheck="false"
+      />
+    </form>
+    <form id="answerPw" class="hidden center">
+      <label class="login-form" style="display: inline-block"
+        >What's your password?</label
+      ><br />
+      <input
+        type="password"
+        id="pw"
+        class="bottom-border login-input pw-box"
+        required
+        spellcheck="false"
+      />
+      <img id="togglePW" src="./img/noneEyes.png"></img>
+    </form>
 
-<form id="answerName" class="center">
-  <label class="login-form" style="display: inline-block">Hello, what's your name?</label><br>
-  <input id="name" class="bottom-border login-input" required max="15" min="3" spellcheck="false"/>
-</form>
-<form id="answerEmail" class="hidden center">
-    <label class="login-form" style="display: inline-block"></label><br>
-    <input id="email" class="bottom-border login-input" required spellcheck="false"/>
-</form>
-<form id="answerPw" class="hidden center">
-    <label class="login-form" style="display: inline-block">What's your password?</label><br>
-    <input id="pw" class="bottom-border login-input" required spellcheck="false"/>
-</form>
-
-<div id="main" class="hidden center-right">
-    <div class="clock-box">
+    <div id="main" class="hidden center-right">
+      <div class="clock-box">
         <span id="clock"></span>
-    </div>
-    <div class="greetingBox">
+      </div>
+      <div class="greetingBox">
         <span id="greeting"></span>
-    </div>
-    <form id="answerTodo">
-        <label class="todayTodo-form">What is your main goal for today?</label><br>
-        <input id="todo" class="bottom-border todayTodo-input" required spellcheck="false"/>
-    </form>
-    <div id="finTodo" class="hidden">
-        <h3>TODAY</h3><br>
+      </div>
+      <form id="answerTodo">
+        <label class="todayTodo-form">What is your main goal for today?</label
+        ><br />
+        <input
+          id="todo"
+          class="bottom-border todayTodo-input"
+          required
+          spellcheck="false"
+        />
+      </form>
+      <div id="finTodo" class="hidden">
+        <h3>TODAY</h3>
+        <br />
         <div class="todayTodo-label">
-            <input type="checkbox"/>
-            <label></label>
-            <span id="delete">✖︎</span>
+          <input type="checkbox" />
+          <label></label>
+          <span id="delete">✖︎</span>
         </div>
+      </div>
     </div>
-</div>
-<div id="quotesBox" class="hidden center-bottom">
-    <span id="quotes"></span>
-</div>
+    <div id="quotesBox" class="hidden center-bottom">
+      <span id="quotes"></span>
+    </div>
 
+    <span id="addTodo" class="todo-menu">TODO</span>
 
-<span id="addTodo" class="todo-menu">TODO</span>
-
-<div id="addTodoBox" class="hidden startBox">
-    <ul id="myTodoList">
+    <div id="addTodoBox" class="hidden startBox">
+      <ul id="myTodoList">
         <li class="empty">
-            <span>Add a todo to get started</span><br>
-            <button id="addToboBtn">New Todo</button>
+          <span>Add a todo to get started</span><br />
+          <button id="addToboBtn">New Todo</button>
         </li>
-    </ul>
-    <form id="saveForm">
-        <input id="todoInput" required spellcheck="false" class="hidden bottom-border addTodo-input"/>
-    </form>
-</div>
+      </ul>
+      <form id="saveForm">
+        <input
+          id="todoInput"
+          required
+          spellcheck="false"
+          class="hidden bottom-border addTodo-input"
+        />
+      </form>
+    </div>
 
-
-<div id="weatherBox" class="weather-menu hidden">
-    <!--<img id="weatherIcon" class="weather-icon">
+    <div id="weatherBox" class="weather-menu hidden">
+      <!--<img id="weatherIcon" class="weather-icon">
     <span id="temp" class="weather-temp"></span><br>
     <span id="city" class="weather-location"></span>-->
-</div>
+    </div>
 
-<script src="./js/background.js"></script>
-<script src="./js/login.js"></script>
-<script src="./js/todos.js"></script>
-<script src="./js/clock.js"></script>
-<script src="./js/quotes.js"></script>
-<script src="./js/todoList.js"></script>
-<script src="js/weather.js"></script>
-
-</body>
+    <script src="./js/background.js"></script>
+    <script src="./js/login.js"></script>
+    <script src="./js/todos.js"></script>
+    <script src="./js/clock.js"></script>
+    <script src="./js/quotes.js"></script>
+    <script src="./js/todoList.js"></script>
+    <script src="js/weather.js"></script>
+  </body>
 </html>

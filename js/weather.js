@@ -14,7 +14,10 @@ function geoSuccess(position) {
       const weatherIconName = data.weather[0].icon;
       const text = `<img id="weatherIcon" class="weather-icon" alt=${
         data.weather[0].main
-      } src=./img/${weatherIconName.replace(regex, "")}.png>
+      } src=./img/${weatherIconName.replace(
+        regex,
+        "",
+      )}.png onerror=this.style.display='none'>
                       <span id="temp" class="weather-temp">${tempMain}</span><br>
                       <span id="city" class="weather-location">${name}</span>`;
       weatherBox.innerHTML = text;

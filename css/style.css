@@ -1,0 +1,185 @@
+body{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, "Neue Haas Grotesk Text Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.hidden{
+    display: none;
+}
+#login span{
+    display: inline-block;
+}
+
+.bottom-border {
+    border-width: 0 0 3.5px;
+    background-color: transparent;
+    border-color: white;
+
+}
+.login-input{
+    width: 100%;
+    height: 30%;
+    outline: none;
+    font-size: 3.375rem;
+    text-align: center;
+    caret-color: white;
+    color: white;
+    font-weight:500;
+    margin-top: 1rem;
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center-right{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center-bottom{
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.weather-menu{
+    position: absolute;
+    right: 20px;
+    height: 20px;
+}
+
+.weather-icon{
+    position: absolute;
+    right: 50px;
+    width: 2.2rem;
+    height: 2.2rem;
+    margin-top: 2px;
+    padding-right: 5px;
+}
+
+.login-form{
+    font-size: 3.375rem;
+    font-weight:500;
+    text-align: center;
+}
+
+.clock-box{
+    cursor: default;
+    font-size: 1050%;
+    letter-spacing: -5px;
+    text-align: center;
+}
+
+.greetingBox{
+    font-size: 3.375rem;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.todayTodo-form{
+    font-size: 2rem;
+    font-weight:400;
+    text-align: center;
+}
+
+.todayTodo-input{
+    height: 40px;
+    width: 100%;
+    outline: none;
+    font-size: 2rem;
+    text-align: center;
+    caret-color: white;
+    color: white;
+    font-weight: 400;
+}
+
+.todo-menu{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+#finTodo h3{
+    text-align: center;
+    margin-bottom: -10px;
+}
+
+.todayTodo-label{
+    text-align: center;
+    font-size: 1.775rem;
+    font-weight: 400;
+}
+
+button{
+    border-radius: 50px;
+    border: none;
+    color: white;
+    background-color: rosybrown;
+    padding: 7px 25px;
+    margin-top: 20px;
+}
+
+.startBox{
+    background-color: white;
+    color: black;
+    position: absolute;
+    right: 20px;
+    bottom: 50px;
+    height: auto;
+    width: 320px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.empty{
+    list-style: none;
+    display: inline-block;
+}
+
+.addTodo-input{
+    height: 20px;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    color: black;
+    caret-color: black;
+    font-weight: 400;
+}
+
+.startBox ul{
+    text-align: center;
+    padding-left: 0px;
+}
+
+.startBox li{
+    list-style: none;
+}
+
+.center-none{
+    text-align: left;
+}
+
+#listDel{
+    text-align: right;
+}
+
+.weather-location{
+    font-weight: 400;
+    font-size: 1rem;
+    float: right;
+}
+
+.weather-temp{
+    font-weight: 400;
+    font-size: 2rem;
+    float: right;
+}
+
